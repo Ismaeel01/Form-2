@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<div id="contact-form" style="font-family:'Arial Narrow','Nimbus Sans L',sans-serif;">
+	<form id="contact" method="post" action="">
+	<input name="search" required>
+	<input type="submit" value="search" > 
+	<fieldset>
+		<label for="name">Name</label>
+		<input type="text" name="name"/>
+	</fieldset>
+	<fieldset>
+		<label for="email">Email</label>
+		<input type="email" name="email" />
+	</fieldset>
+	<fieldset>
+		<input type="text" id="country" name="country" size="30" list="countries"/>
+		<datalist id="countries">
+			<option value="United States">
+			<option value="Canada">
+			<option value="United Kingdom">			
+		</datalist>
+	</fieldset>
+</form>
+</div>
+</body>
+</html>
